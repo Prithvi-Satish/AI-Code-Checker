@@ -1,0 +1,17 @@
+# Agentic Code Reviewer - dependencies
+# Phase 1
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+httpx>=0.26.0
+
+# GitHub
+PyGithub>=2.1.1
+
+# Gemini (Google AI)
+google-generativeai>=0.4.0
+
+# Agent orchestration (Phase 2)
+langgraph>=0.0.20
+langchain-google-genai>=0.0.6
